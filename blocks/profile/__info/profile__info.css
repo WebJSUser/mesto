@@ -5,10 +5,7 @@
     display: grid;
     gap: 16px 18px;
     grid-area: info;
-    grid-template-areas:
-            "title edit-btn"
-            "subtitle subtitle"
-    ;
+    grid-template-areas:"title edit-btn""subtitle subtitle";
 }
 
 @media screen and (max-width: 1024px){
@@ -17,9 +14,6 @@
         min-width: 282px;
         margin: 26px auto 0;
         gap: 14px 10px;
-        grid-template-areas:
-            "title edit-btn"
-            "subtitle edit-btn"
-    ;
+        grid-template-areas:"title edit-btn""subtitle edit-btn";
     }
 }
