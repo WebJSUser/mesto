@@ -1,9 +1,9 @@
-const popUpOpen = document.querySelector('.profile__edit-button');
-const popUpClose = document.querySelector('.popup__close-btn');
-const popUpSave = document.querySelector('.popup__save-btn');
-const overlay = document.querySelector('.popup');
-const profileTitle = document.querySelector('.profile__title');
-const profileSubTitle = document.querySelector('.profile__subtitle');
+let popUpOpen = document.querySelector('.profile__edit-button');
+let popUpClose = document.querySelector('.popup__close-btn');
+let popUpSave = document.querySelector('.popup__save-btn');
+let overlay = document.querySelector('.popup');
+let profileTitle = document.querySelector('.profile__title');
+let profileSubTitle = document.querySelector('.profile__subtitle');
 
 popUpOpen.addEventListener('click', function (){
     overlay.classList.add('overlay');
