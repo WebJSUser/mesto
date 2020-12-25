@@ -1,0 +1,11 @@
+.element__like-btn{
+    min-width: 21px;
+    max-height: 19px;
+    background: url("../../../images/element/like-btn.svg") no-repeat;
+    cursor: pointer;
+}
+
+
+.element__like-btn:hover{
+    transform: scale(1.1);
+}

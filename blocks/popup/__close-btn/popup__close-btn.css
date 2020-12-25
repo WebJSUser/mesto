@@ -1,0 +1,23 @@
+.popup__close-btn{
+    border: none;
+    background: rgba(0,0,0, 0);
+    position: relative;
+    cursor: pointer;
+    top: -250px;
+    right: -385px;
+    width: 60px;
+    height: 60px;
+    background: url("../../../images/popup/popup-btn.svg");
+}
+
+@media screen and (max-width: 768px){
+    .popup__close-btn{
+        position: relative;
+        cursor: pointer;
+        top: -250px;
+        right: -220px;
+        width: 40px;
+        height: 40px;
+        background: url("../../../images/popup/popup-btn_media.svg");
+    }
+}

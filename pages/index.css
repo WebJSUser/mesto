@@ -1,0 +1,52 @@
+/* -- Normalize -- */
+@import "../vendor/normalize.css";
+/* -- Fonts -- */
+@import "../vendor/fonts/fonts.css";
+/* -- Page -- */
+@import "../blocks/page/page.css";
+@import "../blocks/page/__container/page__container.css";
+@import "../blocks/page/__header/page__header.css";
+@import "../blocks/page/__contetnt/page__content.css";
+@import "../blocks/page/__footer/page__footer.css";
+/* -- Header -- */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+/* -- Main -- */
+@import "../blocks/main/main.css";
+/* -- Button -- */
+@import "../blocks/button/button.css";
+/*-- Profile --*/
+@import "../blocks/img/img.css";
+/* -- Profile -- */
+@import "../blocks/profile/profile.css";
+@import "../blocks/profile/__add-button/profile__add-button.css";
+@import "../blocks/profile/__edit-button/profile__edit-button.css";
+@import "../blocks/profile/__info/profile__info.css";
+@import "../blocks/profile/__title/profile__title.css";
+@import "../blocks/profile/__subtitle/profile__subtitle.css";
+@import "../blocks/profile/__avatar/profile__avatar.css";
+/* -- Elements ss-- */
+@import "../blocks/elements/elements.css";
+/* -- Element -- */
+@import "../blocks/element/element.css";
+@import "../blocks/element/__like-btn/element__like-btn.css";
+@import "../blocks/element/__header/element__header.css";
+@import "../blocks/element/__title/element__title.css";
+@import "../blocks/element/__img/element__img.css";
+@import "../blocks/element/__footer/element__footer.css";
+/* -- Footer -- */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+/* -- PopUp -- */
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__close-btn/popup__close-btn.css";
+@import "../blocks/popup/__save-btn/popup__save-btn.css";
+@import "../blocks/popup/__edit-btn/popup__edit-btn.css";
+@import "../blocks/popup/__text-btn/popup__text-btn.css";
+@import "../blocks/popup/__input/popup__input.css";
+@import "../blocks/popup/__title/popup__title.css";
+/**/
+@import "../blocks/overlay/overlay.css";
+/**/
+@import "../blocks/logo/logo.css";

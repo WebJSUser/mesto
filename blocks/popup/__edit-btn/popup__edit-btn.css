@@ -1,0 +1,5 @@
+.popup__edit-btn{
+    height: 20px;
+    width: 100%;
+    background-image: url("../../../images/profile/button/btn-edit.svg");
+}
