@@ -13,10 +13,10 @@
 @media screen and (max-width: 768px){
     .popup__close-btn{
         position: relative;
-        cursor: pointer;
         top: -250px;
         right: -220px;
         width: 40px;
         height: 40px;
+        background-image: url("../../../images/popup/popup-btn_media.svg");
     }
 }

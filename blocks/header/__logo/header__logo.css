@@ -1,5 +1,5 @@
 .header__logo{
-    background: url("../../../images/header/header-logo.svg");
+    background: url("../../../images/header/header-logo.svg") no-repeat;
 }
 
 @media screen and (max-width: 880px){

@@ -1,8 +1,7 @@
 .profile__edit-button{
     align-self: end;
     grid-area: edit-btn;
-    min-width: 24px;
-    max-width: 24px;
+    width: 24px;
     min-height: 24px;
     border: solid 1px white;
     background: url("../../../images/profile/button/btn-edit.svg") no-repeat center;
