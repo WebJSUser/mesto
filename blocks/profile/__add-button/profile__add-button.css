@@ -1,11 +1,17 @@
 .profile__add-button{
     grid-area: btn;
-    border: solid 2px white;
     min-width: 150px;
     min-height: 50px;
     background: url("../../../images/profile/button/btn-add.svg") no-repeat center;
     cursor: pointer;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
 }
+
+.profile__add-button:hover{
+    opacity: 0.6;
+}
+
 
 @media screen and (max-width: 1024px){
   .profile__add-button{

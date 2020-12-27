@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 880px){
     .page__footer{
+        padding: 48px 0 36px;
         margin: 0 19px;
     }
 }

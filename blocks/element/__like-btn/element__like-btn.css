@@ -6,7 +6,6 @@
     cursor: pointer;
 }
 
-
 .element__like-btn:hover{
-    transform: scale(1.1);
+    opacity: 0.6;
 }
