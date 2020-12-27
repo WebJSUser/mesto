@@ -14,69 +14,69 @@
 
       <main class="main page__content">
         <section class="profile">
-          <img src="./images/profile/avatar.jpg" class="img profile__avatar" alt="Жак-Ив Кусто">
-            <article class="profile__info">
-              <h2 class="profile__title">Жак-Ив Кусто</h2>
+          <img src="./images/profile/avatar.jpg" class="img profile__avatar" alt="Фотография профиля">
+            <div class="profile__info">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
               <p class="profile__subtitle">Исследователь океана</p>
-              <button class="button profile__edit-button" type="submit"></button>
-            </article>
-            <button class="button profile__add-button" type="submit"></button>
+              <button class="button profile__edit-button"></button>
+            </div>
+            <button class="button profile__add-button"></button>
         </section>
 
         <section class="elements">
           <article class="element">
             <div class="element__header">
-              <img src="images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="element__img">
+              <img src="./images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Карачаевск-Черкаск</h2>
-              <button class="button element__like-btn" type="submit"></button>
+              <button class="button element__like-btn"></button>
             </div>
           </article>
 
           <article class="element">
             <div class="element__header">
-              <img src="images/element/mount_elbrus.png" alt="Изображение Горы Эльбрус" class="img element__img">
+              <img src="./images/element/mount_elbrus.jpg" alt="Изображение Горы Эльбрус" class="img element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="button element__like-btn" type="submit"></button>
+              <button class="button element__like-btn"></button>
             </div>
           </article>
 
           <article class="element">
             <div class="element__header">
-              <img src="images/element/dombay.png" alt="Изображение горы в Домбай" class="img element__img">
+              <img src="./images/element/dombay.jpg" alt="Изображение горы в Домбай" class="img element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Домбай</h2>
-              <button class="button element__like-btn" type="submit"></button>
+              <button class="button element__like-btn"></button>
             </div>
           </article>
 
           <article class="element">
             <div class="element__header">
-              <img src="images/element/mount_elbrus.png" alt="Изображение Горы Эльбрус" class="img element__img">
+              <img src="./images/element/mount_elbrus.jpg" alt="Изображение Горы Эльбрус" class="img element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="button element__like-btn" type="submit"></button>
+              <button class="button element__like-btn"></button>
             </div>
           </article>
 
           <article class="element">
             <div class="element__header">
-              <img src="images/element/dombay.png" alt="Изображение горы в Домбай" class="img element__img">
+              <img src="./images/element/dombay.jpg" alt="Изображение горы в Домбай" class="img element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Домбай</h2>
-              <button class="button element__like-btn" type="submit"></button>
+              <button class="button element__like-btn"></button>
             </div>
           </article>
 
           <article class="element">
             <div class="element__header">
-              <img src="images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="img element__img">
+              <img src="./images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="img element__img">
             </div>
             <div class="element__footer">
               <h2 class="element__title">Карачаевск-Черкаск</h2>
@@ -95,16 +95,16 @@
     <section class="popup">
       <div class="popup__container">
         <h2 class="popup__title">Редактировать профиль</h2>
-        <form class="form">
-          <label>
-            <input type="text" class="popup__input popup__input-title" value="Жак-Ив Кусто">
-            <input type="text" class="popup__input popup__input-subtitle" value="Исследователь">
-          </label>
-          <button class="button popup__close-btn " type="submit"></button>
+        <form class="popup__form" name="form">
+          <fieldset class="popup__fieldset" name="form">
+            <input type="text" class="popup__input" value="Жак-Ив Кусто" name="inputTitle">
+            <input type="text" class="popup__input" value="Исследователь океана" name="inputSubtitle">
+          </fieldset>
+          <button class="button popup__close-btn"></button>
           <button class="button popup__save-btn" type="submit">Сохранить</button>
         </form>
       </div>
     </section>
-    <script src="scripts/index.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

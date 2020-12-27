@@ -1,20 +1,23 @@
 .popup__close-btn{
     border: none;
     background: rgba(0,0,0, 0);
-    position: relative;
+    position: absolute;
     cursor: pointer;
-    top: -250px;
-    right: -385px;
+    top: -158px;
+    right: -85px;
     width: 60px;
     height: 60px;
     background-image: url("../../../images/popup/popup-btn.svg");
 }
 
+.popup__close-btn:hover{
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 768px){
     .popup__close-btn{
-        position: relative;
-        top: -250px;
-        right: -220px;
+        top: -163px;
+        right: -30px;
         width: 40px;
         height: 40px;
         background-image: url("../../../images/popup/popup-btn_media.svg");
