@@ -3,8 +3,8 @@
     background: rgba(0,0,0, 0);
     position: absolute;
     cursor: pointer;
-    top: -158px;
-    right: -85px;
+    top: -50px;
+    right: -50px;
     width: 60px;
     height: 60px;
     background-image: url("../../../images/popup/popup-btn.svg");
@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 768px){
     .popup__close-btn{
-        top: -163px;
-        right: -30px;
+        top: -43px;
+        right: -5px;
         width: 40px;
         height: 40px;
         background-image: url("../../../images/popup/popup-btn_media.svg");

@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bc2a247-e5dd-4c9f-a230-124a2c275216" name="Default Changelist" comment="" />
+    <list default="true" id="3bc2a247-e5dd-4c9f-a230-124a2c275216" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/element/__like-btn/element__like-btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/element/__like-btn/element__like-btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__close-btn/popup__close-btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__close-btn/popup__close-btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__fieldset/popup__fieldset.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__fieldset/popup__fieldset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__form/popup__form.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__form/popup__form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__save-btn/popup__save-btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__save-btn/popup__save-btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_open/popup_open.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_open/popup_open.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_overlay/popup_overlay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/hotfix" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hotfix" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PropertiesComponent">

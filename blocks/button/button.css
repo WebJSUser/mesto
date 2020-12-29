@@ -1,5 +1,5 @@
 .button{
     padding: 0;
     background-color: black;
-    transition: .8s;
+    transition: opacity 1s;
 }

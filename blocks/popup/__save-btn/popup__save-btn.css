@@ -9,6 +9,8 @@
     height:100vh;
     cursor: pointer;
     border: none;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .popup__save-btn:hover{
@@ -17,6 +19,8 @@
 
 @media screen and (max-width: 768px){
     .popup__save-btn{
+        font-size: 14px;
+        line-height: 17px;
         max-width: 238px;
         max-height: 46px;
     }
