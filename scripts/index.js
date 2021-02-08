@@ -30,8 +30,8 @@ const profile = document.querySelector('.profile');
 const profileTitle = profile.querySelector('.profile__title');
 const profileSubTitle = profile.querySelector('.profile__subtitle');
 
-const popUpEditProfile = document.querySelector('.popup__edit-profile');
-const popUpOpenEdit = profile.querySelector('.profile-edit-button');
+const popUpEditProfile = document.querySelector('.popup-edit-profile');
+const popUpOpenEdit = profile.querySelector('.profile__edit-button');
 const popUpCloseEdit = popUpEditProfile.querySelector('.popup__close-btn');
 const formElementEdit = popUpEditProfile.querySelector('.popup__form');
 const nameInput = formElementEdit.inputTitle;
