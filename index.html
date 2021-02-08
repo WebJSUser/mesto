@@ -22,68 +22,7 @@
             </div>
             <button class="button profile__add-button" type="button"></button>
         </section>
-
-        <section class="elements">
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Карачаевск-Черкаск</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/mount_elbrus.jpg" alt="Изображение Горы Эльбрус" class="img element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/dombay.jpg" alt="Изображение горы в Домбай" class="img element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Домбай</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/mount_elbrus.jpg" alt="Изображение Горы Эльбрус" class="img element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/dombay.jpg" alt="Изображение горы в Домбай" class="img element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Домбай</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-
-          <article class="element">
-            <div class="element__header">
-              <img src="./images/element/karachay_cherkessia.jpg" alt="Изображение Сентинского храма возведённого в 965 году на территории современной Карачаево-Черкесии" class="img element__img">
-            </div>
-            <div class="element__footer">
-              <h2 class="element__title">Карачаевск-Черкаск</h2>
-              <button class="button element__like-btn" type="button"></button>
-            </div>
-          </article>
-        </section>
+        <section class="elements"></section>
       </main>
 
       <footer class="footer page__footer">
@@ -92,8 +31,10 @@
         </p>
       </footer>
     </div>
-    <section class="popup">
-      <div class="popup__container">
+    <!-- ------------------------------------------------------------ -->
+    <section class="popup popup__edit-profile">
+      <div class="overlay"></div>
+      <div class="popup__container popup__container-edit-profile">
         <button class="button popup__close-btn" type="button"></button>
         <h2 class="popup__title">Редактировать профиль</h2>
         <form class="popup__form" name="formEditProfile">
@@ -105,6 +46,46 @@
         </form>
       </div>
     </section>
+    <!-- ------------------------------------------------------------ -->
+    <section class="popup popup__add-element">
+      <div class="overlay"></div>
+      <div class="popup__container popup__container-add-element">
+        <button class="button popup__close-btn" type="button"></button>
+        <h2 class="popup__title">Новое место</h2>
+        <form class="popup__form" name="formEditProfile">
+          <fieldset class="popup__fieldset" name="formElementAdd">
+            <input type="text" class="popup__input" name="inputTitleAdd" placeholder="Название">
+            <input type="text" class="popup__input" name="inputSubtitleAdd" placeholder="Ссылка на картинку">
+          </fieldset>
+          <button class="button popup__save-btn" type="submit">Сохранить</button>
+        </form>
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------ -->
+    <section class="popup popup__image">
+      <div class="overlay"></div>
+      <div class="popup__container-image">
+        <figure class="popup__figure">
+          <button class="button popup__close-btn" type="button"></button>
+          <img src="#"  alt="#" class="popup__figure-image">
+          <figcaption class="popup__caption"></figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------ -->
+    <template class="element-template">
+      <article class="element">
+        <div class="element__header">
+          <button class="button element__trash-btn" type="button"></button>
+          <img src="#" alt="#" class="img element__img">
+        </div>
+        <div class="element__footer">
+          <h2 class="element__title"></h2>
+          <button class="button element__like-btn" type="button"></button>
+        </div>
+      </article>
+    </template >
+
     <script src="./scripts/index.js"></script>
   </body>
 </html>

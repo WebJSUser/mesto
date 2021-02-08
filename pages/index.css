@@ -29,17 +29,25 @@
 @import "../blocks/elements/elements.css";
 /* -- Element -- */
 @import "../blocks/element/element.css";
-@import "../blocks/element/__like-btn/element__like-btn.css";
+@import "../blocks/element/__trash-btn/element__trash-btn.css";
 @import "../blocks/element/__header/element__header.css";
 @import "../blocks/element/__title/element__title.css";
 @import "../blocks/element/__img/element__img.css";
 @import "../blocks/element/__footer/element__footer.css";
+@import "../blocks/element/__like-btn/element__like-btn.css";
+@import "../blocks/element/__like-btn/_active/element__like-btn_act.css";
 /* -- Footer -- */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 /* -- PopUp -- */
 @import "../blocks/popup/popup.css";
+@import "../blocks/popup/__figure/popup__figure.css";
+@import "../blocks/popup/__container-edit-profile/popup__container-edit-profile.css";
+@import "../blocks/popup/__container-add-element/popup__container-add-element.css";
 @import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__container-image/popup__container-image.css";
+@import "../blocks/popup/__figure-image/popup__figure-image.css";
+@import "../blocks/popup/__caption/popup__caption.css";
 @import "../blocks/popup/__close-btn/popup__close-btn.css";
 @import "../blocks/popup/__save-btn/popup__save-btn.css";
 @import "../blocks/popup/__edit-btn/popup__edit-btn.css";
@@ -51,3 +59,6 @@
 @import "../blocks/popup/_open/popup_open.css";
 /**/
 @import "../blocks/logo/logo.css";
+/**/
+
+@import "../blocks/overlay/overlay.css";

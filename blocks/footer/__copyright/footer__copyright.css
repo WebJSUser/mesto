@@ -9,7 +9,7 @@
     content: '\00A9 2020';
 }
 
-@media screen and (min-width: 780px){
+@media screen and (max-width: 880px){
     .footer__copyright{
         font-size: 14px;
         line-height: 17px;
