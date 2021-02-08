@@ -31,7 +31,7 @@ const profileTitle = profile.querySelector('.profile__title');
 const profileSubTitle = profile.querySelector('.profile__subtitle');
 
 const popUpEditProfile = document.querySelector('.popup__edit-profile');
-const popUpOpenEdit = profile.querySelector('.profile__edit-button');
+const popUpOpenEdit = profile.querySelector('.profile-edit-button');
 const popUpCloseEdit = popUpEditProfile.querySelector('.popup__close-btn');
 const formElementEdit = popUpEditProfile.querySelector('.popup__form');
 const nameInput = formElementEdit.inputTitle;
@@ -56,7 +56,7 @@ popUpCloseEdit.addEventListener('click', () => {
 
 // ------------------AddElement------------------
 const templateElement = document.querySelector('.element-template').content;
-const popUpAddElement = document.querySelector('.popup__add-element');
+const popUpAddElement = document.querySelector('.popup-add-element');
 const popUpOpenAdd = profile.querySelector('.profile__add-button');
 const popUpCloseAdd = popUpAddElement.querySelector('.popup__close-btn');
 const formElementAdd = popUpAddElement.querySelector('.popup__form');
@@ -112,7 +112,7 @@ function addElement(name, link) {
 
 // ------------------Image------------------
 
-const popUpImageElement = document.querySelector('.popup__image');
+const popUpImageElement = document.querySelector('.popup-image');
 const popUpImage = popUpImageElement.querySelector('.popup__figure-image');
 const popUpImageCap = popUpImageElement.querySelector('.popup__caption');
 const popUpImageClose = popUpImageElement.querySelector('.popup__close-btn');
