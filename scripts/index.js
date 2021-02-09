@@ -103,6 +103,14 @@ function addElement(name, link) {
     return elementItem;
 }
 
+// ********************* render ********************************
+
+function render(){      
+    initialCards.forEach((arg) => {
+        elements.append(addElement(arg.name, arg.link));
+    });   
+}
+
 // ------------------EditProfile------------------
 
 formElementEdit.addEventListener('submit', (evt) => {
@@ -145,11 +153,5 @@ popUpCloseAdd.addEventListener('click', () => {
 });
 
 // ********************* render ********************************
-
-function render(){      
-    initialCards.forEach((arg) => {
-        elements.append(addElement(arg.name, arg.link));
-    });   
-}
 
 render();
